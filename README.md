@@ -1,2 +1,22 @@
-# novaims-programming-methods-2026
-Coursework and lab implementations for Programming Methods at NOVA IMS, covering Python software engineering, OOP, API/Ollama integration, and performance scaling.
+# NOVA IMS Programming Methods 2026
+
+Welcome to the Programming Methods repository for NOVA IMS. This project contains the course labs, notebooks, and supporting code for Python-based software engineering work.
+
+## Project structure
+
+```text
+.
+├── data/                 # Data files used across exercises
+├── docs/                 # Documentation and setup guides
+│   └── INSTALLATION.md   # Environment and installation instructions
+├── notebooks/            # Jupyter notebooks for labs
+├── src/                  # Source code for the course projects
+│   └── pm_labs/          # Lab package and Python modules
+├── pyproject.toml        # Python project configuration and dependencies
+├── README.md             # Project overview
+└── .gitignore            # Ignores local environment and generated files
+```
+
+## Getting started
+
+For environment setup and installation instructions, see [docs/INSTALLATION.md](docs/INSTALLATION.md).
