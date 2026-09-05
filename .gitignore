@@ -1,0 +1,74 @@
+# =========================
+# Python & uv Environment
+# =========================
+# uv virtual environment (created by uv sync)
+.venv/
+env/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# =========================
+# Testing & Linting Caches
+# =========================
+# pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff cache
+.ruff_cache/
+
+# =========================
+# Profiling Artifacts (Week 6)
+# =========================
+# line-profiler output files
+*.lprof
+
+# memory-profiler output files
+mprofile_*.dat
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# =========================
+# OS Generated Files
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Secrets & Environments
+# =========================
+.env
+.env.local
+.env.*
+
+# Note: uv.lock, pyproject.toml, and .python-version 
+# ARE NOT ignored so they can be shared with the team/students.

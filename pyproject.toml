@@ -1,0 +1,29 @@
+[project]
+name = "novaims-programming-methods-2026"
+version = "0.1.0"
+description = "Coursework and labs for Programming Methods at NOVA IMS"
+readme = "README.md"
+requires-python = ">=3.12, <3.13"
+
+dependencies = [
+    # Core Scientific Stack & Lab Notebooks
+    "numpy>=1.26.4",
+    "pandas>=2.2.2",
+    "jupyter>=1.0.0",
+    "ipykernel>=6.29.5",
+    # API & LLM Pipelines (Weeks 2 & 3)
+    "requests>=2.32.3",
+    "pydantic>=2.13.4",
+]
+
+[dependency-groups]
+dev = [
+    # Testing & Code Quality (Week 4)
+    "pytest>=8.3.2",
+    "ruff>=0.5.7",
+    
+    # Profiling & Benchmarking (Week 6)
+    "line-profiler>=4.1.2",
+    "memory-profiler>=0.61.0",
+    "matplotlib>=3.9.1", 
+]
